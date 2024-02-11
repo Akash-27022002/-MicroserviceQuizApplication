@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.telusko.apigateway.ApiGatewayApplication",
+            "projectName": "api-gateway"
+        },
+        {
+            "type": "java",
+            "name": "QuizServiceApplication",
+            "request": "launch",
+            "mainClass": "com.telusko.quizservice.QuizServiceApplication",
+            "projectName": "quiz-service"
+        },
+        {
+            "type": "java",
+            "name": "ServiceRegistryApplication",
+            "request": "launch",
+            "mainClass": "com.telusko.serviceregistry.ServiceRegistryApplication",
+            "projectName": "service-registry"
+        },
+        {
+            "type": "java",
+            "name": "question-service-8080",
+            "request": "launch",
+            "mainClass": "com.telusko.questionservice.QuestionServiceApplication",
+            "projectName": "question-service",
+            "args": "--server.port=8080"
+        },
+        {
+            "type": "java",
+            "name": "question-service-8081",
+            "request": "launch",
+            "mainClass": "com.telusko.questionservice.QuestionServiceApplication",
+            "projectName": "question-service",
+            "args": "--server.port=8081"
+        }
+    ]
+}
